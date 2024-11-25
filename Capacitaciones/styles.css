@@ -1,7 +1,6 @@
 
 
-/* Estilos por defecto */
-/* Reset básico */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -15,12 +14,13 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Corregir estilos para elementos HTML5 que no tienen definiciones de estilo por defecto */
+
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
-/* Corregir los márgenes de las listas */
+
 ol, ul {
     list-style: none;
 }
@@ -38,16 +38,16 @@ ol, ul {
 .navbar-brand img {
     height: 5rem;
     width: auto;
-    /* max-height: 5rem; */
+
 }
 #section1 {
-    padding-top: 100px; /* Ajusta este valor según la altura real de tu navbar */
+    padding-top: 100px; 
 }
 
 #section4 {
-    margin-bottom: 20px; /* Ajusta este valor según sea necesario */
+    margin-bottom: 20px; 
 }
-/* Añade tu propio estilo a partir de aquí */
+
 #contacto{
     padding: 20px;
     background-color: #f9f9f9;
@@ -79,46 +79,46 @@ ol, ul {
     background-color: #0056B3;
 }
 
-/* Estilo del contenedor del botón */
+
 .cta-container {
   text-align: center;
   margin: 20px 0;
 }
 
-/* Estilo del botón */
+
 .cta-button {
-  background-color: red; /* Color de fondo del botón */
-  color: white; /* Color del texto */
-  padding: 15px 25px; /* Espaciado interno del botón */
-  text-decoration: none; /* Quitar subrayado del enlace */
-  font-size: 18px; /* Tamaño de la fuente */
-  border-radius: 5px; /* Bordes redondeados */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-  transition: background-color 0.3s ease; /* Transición de color */
+  background-color: red; 
+  color: white; 
+  padding: 15px 25px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
 }
 
 .cta-button:hover {
-  background-color: #e04e2c; /* Color de fondo al pasar el mouse */
+  background-color: #e04e2c; 
 }
 .button-container {
-  display: flex; /* Flexbox para centrar contenido */
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente si es necesario */
-  margin-top: 20px; /* Ajusta el espaciado superior si lo necesitas */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px; 
 }
 
 .red-button {
-  background-color: #d9534f; /* Color rojo del botón */
-  color: white; /* Texto blanco */
+  background-color: #d9534f; 
+  color: white; 
   border: none;
-  padding: 10px 20px; /* Espaciado interno */
-  font-size: 16px; /* Tamaño de fuente */
+  padding: 10px 20px; 
+  font-size: 16px; 
   cursor: pointer;
-  border-radius: 5px; /* Bordes redondeados */
+  border-radius: 5px; 
 }
 
 .red-button:hover {
-  background-color: #c9302c; /* Color al pasar el mouse */
+  background-color: #c9302c; 
 }
 
 .figure {
@@ -131,17 +131,17 @@ ol, ul {
 }
 
 #vision {
-    background-color: #3498db; /* Azul */
+    background-color: #3498db; 
     display: block;
 }
 
 #mision {
-    background-color: #2ecc71; /* Verde */
+    background-color: #2ecc71; 
     display: block;
 }
 
 #valores {
-    background-color: #e74c3c; /* Rojo */
+    background-color: #e74c3c; 
     display: block;
 }
 
@@ -215,15 +215,15 @@ ol, ul {
 }
 
 .image-container {
-  text-align: center; /* Centra la imagen horizontalmente */
-  margin: 20px 0; /* Márgenes superior e inferior */
+  text-align: center; 
+  margin: 20px 0; 
 }
 
 /* Imagen responsiva */
 .responsive-image {
-  width: 100%; /* Ancho por defecto para pantallas grandes y medianas */
-  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  width: 100%; 
+  max-width: 100%; 
+  height: auto; 
 }
 
 @media (min-width: 769px) and (max-width: 1024){
